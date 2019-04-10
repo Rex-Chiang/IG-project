@@ -4,7 +4,7 @@ import re
 import matplotlib.pyplot as plt
 from bs4 import BeautifulSoup as soup
 
-url = "https://www.instagram.com/jessicaaakuo/"
+url = "https://www.instagram.com/rickys_cookingdiary/"
 
 html = requests.get(url)
 page = soup(html.text,'html.parser')
